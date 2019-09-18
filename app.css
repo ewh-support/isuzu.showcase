@@ -18950,7 +18950,8 @@ iframe#viAd {
     font-family: 'SFUHelvetica-Light';
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/SFUHelvetica-Light.13362b3.ttf) format('truetype');
+    src: local("SFUHelvetica-Light"),
+         url(fonts/SFUHelvetica-Light.13362b3.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto-Light';
@@ -19189,9 +19190,6 @@ label.item-checkbox input[type="checkbox"]:checked ~ .icon-checkbox:after, label
 .icon-checkbox{
     border-radius: 0 !important;
 }
-iframe{
-    margin-top: -78px;
-}
 .navbar:after {
     height: 0;
 }
@@ -19243,6 +19241,9 @@ iframe{
 .fs-roboto-medium{
     font-family: 'Roboto-Medium';
 }
+.style-font-bm p{
+    font-family: 'Roboto-Light';
+}
 /* ========tabbar========== */
 span.tabbar-label{
     font-family: 'SFUHelvetica-Bold';
@@ -19290,13 +19291,16 @@ span.tabbar-label{
     font-family: 'Roboto-Bold';
     font-style: italic;
 }
+
 /* font footer */
+
 .style-font-footer-p{
     text-transform: uppercase;
     padding: 3px 0;
     font-size: 13px;
     font-family: 'SFUHelvetica-Light';
 }
+
 @media only screen and (max-width: 320px){
     .media-320{
         width: 35px !important;
