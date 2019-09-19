@@ -20322,6 +20322,14 @@ position: relative;
 }
 
 
+.page-content.tabs{
+    overflow: initial;
+    height: auto;
+}
+iframe{
+    margin-top: 0px;
+}  
+
 
 .md .md-ios-link[data-v-1c78e94e] {
     margin-right: 10px;
