@@ -19244,6 +19244,9 @@ label.item-checkbox input[type="checkbox"]:checked ~ .icon-checkbox:after, label
 .style-font-bm p{
     font-family: 'Roboto-Light';
 }
+.style-line-li {
+    border-bottom: 1px solid #eee;
+}
 /* ========tabbar========== */
 span.tabbar-label{
     font-family: 'SFUHelvetica-Bold';
@@ -19271,6 +19274,9 @@ span.tabbar-label{
 .fs-sfuhelvetica-bold{
     font-family: 'SFUHelvetica-Bold';
 }
+.fs-sfuhelvetica-light{
+    font-family: 'SFUHelvetica-Light';
+}
 .fs-roboto-light{
     font-family: 'Roboto-Light';
 }
@@ -19297,7 +19303,7 @@ span.tabbar-label{
 .style-font-footer-p{
     text-transform: uppercase;
     padding: 3px 0;
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'SFUHelvetica-Light';
 }
 
