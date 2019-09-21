@@ -19271,17 +19271,17 @@ span.tabbar-label{
     padding-left:10px;
     padding-right: 10px;
 }
-.style-bg-xe-tai{
+.style-bg-blue{
     background-color: #2196f3;
 }
-.style-bg-xe-ban-tai{
+.style-bg-red{
     background-image: linear-gradient(to right, #9f1200,#ae0700,#b00500,#a10e00,#b00500,#ae0700,#9f1200); 
    
 }
-.style-bg-xe-tai .logo-footer:before{
+.style-bg-blue .logo-footer:before{
     background: #2196f3 !important;
 }
-.style-bg-xe-tai .logo-footer:after{
+.style-bg-blue .logo-footer:after{
     background: #2196f3 !important;;
 }
 /* ========Bộ màu============== */
