@@ -19272,11 +19272,14 @@ span.tabbar-label{
     padding-right: 10px;
 }
 .style-bg-blue{
-    background-color: #2196f3;
+    background-color: #2196f3 !important;
 }
 .style-bg-red{
-    background-image: linear-gradient(to right, #9f1200,#ae0700,#b00500,#a10e00,#b00500,#ae0700,#9f1200); 
-   
+  background-image: linear-gradient(to right, #9f1200,#ae0700,#b00500,#a10e00,#b00500,#ae0700,#9f1200);
+
+}
+.style-bg-orange{
+  background-color: #DF3603;
 }
 .style-bg-blue .logo-footer:before{
     background: #2196f3 !important;
@@ -19284,7 +19287,21 @@ span.tabbar-label{
 .style-bg-blue .logo-footer:after{
     background: #2196f3 !important;;
 }
+.style-bg-orange .logo-footer:before{
+    background: #DF3603 ;
+}
+.style-bg-orange .logo-footer:after{
+    background: #DF3603 ;;
+}
+.style-bg-red .logo-footer:before{
+    background-image: linear-gradient(to left, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
+
+}
+.style-bg-red .logo-footer:after{
+  background-image: linear-gradient(to right, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
+}
 /* ========Bộ màu============== */
+
 .bg-border-line:after{
     background-color: #ccc !important;
 }
@@ -19439,7 +19456,7 @@ img{
     left: 80%;
     top: 5px;
     /* background-color: rgb(191, 1, 0); */
-    background-image: linear-gradient(to right, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
+     background-image: linear-gradient(to right, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
     transform: rotate(-10deg);
     transform-origin: left top;
     z-index: -1;
