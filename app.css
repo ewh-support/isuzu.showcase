@@ -19062,6 +19062,7 @@ iframe#viAd {
 .item-divider>span{
     width: 100%;
 }
+
 .style-even-odd:nth-child(odd) {
     background: #F1F1F1;
 }
@@ -19213,9 +19214,9 @@ label.item-checkbox input[type="checkbox"]:checked ~ .icon-checkbox:after, label
     position: absolute;
     right: 0;
     width: 100%;
-    top: 80%;
+    top: 90%;
     bottom: auto;
-    height: 18px;
+    height: 10px;
     pointer-events: none;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), color-stop(40%, rgba(0, 0, 0, 0.1)), color-stop(50%, rgba(0, 0, 0, 0.05)), color-stop(80%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
@@ -19232,6 +19233,9 @@ label.item-checkbox input[type="checkbox"]:checked ~ .icon-checkbox:after, label
     width: 100%;
 }
 .style-pannel .panel-right .navbar{
+    background-color:#fff;
+}
+.panel .navbar{
     background-color:#fff;
 }
 .ios .panel-right .navbar:after {
@@ -19272,36 +19276,53 @@ span.tabbar-label{
     padding-right: 10px;
 }
 .style-bg-blue{
-    background-color: #2196f3 !important;
+    /* background-color: #2196f3 !important; */
+  background-image: linear-gradient(to right, #156bb1,#1b7dce,#2196f3,#2196f3,#2196f3,#1b7dce,#156bb1) !important;
+
 }
 .style-bg-red{
-  background-image: linear-gradient(to right, #9f1200,#ae0700,#b00500,#a10e00,#b00500,#ae0700,#9f1200);
+  background-image: linear-gradient(to right, rgb(143, 17, 1),#a10701,#b00500,#b00500,#b00500,#a10701,rgb(143, 17, 1));
 
 }
 .style-bg-orange{
-  background-color: #DF3603;
+  /* background-color: #DF3603; */
+  background-image: linear-gradient(to right, rgb(196, 48, 4), rgb(209, 52, 5), #DF3603, #DF3603, #DF3603,rgb(209, 52, 5),rgb(196, 48, 4));
+
 }
 .style-bg-blue .logo-footer:before{
-    background: #2196f3 !important;
+    /* background: #2196f3 !important; */
+  background-image: linear-gradient(to left, #2196f3,#208be2,#1b7dce,#156bb1,#1b7dce,#208be2,#2196f3) !important;
+
 }
 .style-bg-blue .logo-footer:after{
-    background: #2196f3 !important;;
+    /* background: #2196f3 !important;; */
+  background-image: linear-gradient(to left, #2196f3,#208be2,#1b7dce,#156bb1,#1b7dce,#208be2,#2196f3) !important;
+
 }
 .style-bg-orange .logo-footer:before{
-    background: #DF3603 ;
+    /* background: #DF3603 ; */
+  background-image: linear-gradient(to left, #DF3603,#DF3603,rgb(209, 52, 5),rgb(196, 48, 4),rgb(209, 52, 5),#DF3603,#DF3603) ;
+
 }
 .style-bg-orange .logo-footer:after{
-    background: #DF3603 ;;
+    /* background: #DF3603 ; */
+  background-image: linear-gradient(to left, #DF3603,#DF3603,rgb(209, 52, 5),rgb(196, 48, 4),rgb(209, 52, 5),#DF3603,#DF3603) ;
+
 }
 .style-bg-red .logo-footer:before{
-    background-image: linear-gradient(to left, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
+    /* background-image: linear-gradient(to left, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552); */
+    background-image: linear-gradient(to left, #b00500,#b00500,#a10701,rgb(143, 17, 1),#a10701,#b00500,#b00500);
 
 }
 .style-bg-red .logo-footer:after{
-  background-image: linear-gradient(to right, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
+  /* background-image: linear-gradient(to left, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552); */
+  background-image: linear-gradient(to left, #b00500,#b00500,#a10701,rgb(143, 17, 1),#a10701,#b00500,#b00500);
+
 }
 /* ========Bộ màu============== */
-
+.fixcolor-cam.tab-link-active{
+    background-color: #DF3603 !important;
+}
 .bg-border-line:after{
     background-color: #ccc !important;
 }
@@ -19442,7 +19463,7 @@ img{
     left: -130%;
     top: 5px;
     /* background-color: rgb(191, 1, 0); */
-    background-image: linear-gradient(to left, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
+    background-image:  linear-gradient(to right, rgb(143, 17, 1),#a10701,#b00500,#b00500,#b00500,#a10701,rgb(143, 17, 1));
     transform: rotate(10deg);
     transform-origin: right top;
     z-index: -1;
@@ -19456,7 +19477,7 @@ img{
     left: 80%;
     top: 5px;
     /* background-color: rgb(191, 1, 0); */
-     background-image: linear-gradient(to right, #ab1f00,#ae0700,#b00500,#ae0700,#a10e00,#ce0e04,#f56552);
+     background-image:  linear-gradient(to right, rgb(143, 17, 1),#a10701,#b00500,#b00500,#b00500,#a10701,rgb(143, 17, 1));
     transform: rotate(-10deg);
     transform-origin: left top;
     z-index: -1;
