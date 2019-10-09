@@ -19330,6 +19330,12 @@ iframe#viAd {
 .fa-search:before {
   content: "\F002";
 }
+.fa-chevron-left:before {
+  content: "\F053";
+}
+.fa-chevron-right:before {
+  content: "\F054";
+}
 /* Your app styles here */
 /* Slider */
 .slick-slider
@@ -19475,7 +19481,7 @@ iframe#viAd {
     line-height: 0;
 
     position: absolute;
-    top: 50%;
+    top: 0;
 
     display: block;
 
@@ -19523,7 +19529,7 @@ iframe#viAd {
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -19531,11 +19537,11 @@ iframe#viAd {
 
 .slick-prev
 {
-    left: -25px;
+    left: 0px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 0px;
     left: auto;
 }
 .slick-prev:before
@@ -19549,12 +19555,12 @@ iframe#viAd {
 
 .slick-next
 {
-    right: -25px;
+    right: 0px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: 0px;
 }
 .slick-next:before
 {
@@ -19700,6 +19706,9 @@ img{
 }
 .fs-22{
     font-size: 22px;
+}
+.fs-20{
+    font-size: 20px;
 }
 .fs-16{
     font-size: 16px;
@@ -20289,6 +20298,11 @@ select[name=fontSize] option:first {
 .md .style-optgroup{
     font-size: 12px !important;
 }
+@media (max-width: 375px){
+   .style-media-320{
+       font-size: 17px !important;
+   }
+}
 @media only screen and (max-width: 320px){
     .media-320{
         width: 35px !important;
@@ -20341,6 +20355,18 @@ table, th, td {
     height: 20px !important;
     line-height: 22px !important;
     border-radius: 50px;
+}
+.no-chevron-center:before{
+    display: none !important;
+}
+.style-angle-down:before{
+    content: '\F107';
+    font-family: 'FontAwesome';
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 20px;
+    top: 0px;
+    right: 30px;
 }
 
 .vue-map-container {
@@ -20604,6 +20630,28 @@ table, th, td {
     right: -15px;
 }
 .row > [class*="col-"][data-v-283f9363], .row > .col[data-v-283f9363] {
+    margin-bottom: 15px;
+}
+
+
+
+.md .md-ios-link[data-v-a151410e] {
+    margin-right: 10px;
+}
+.ios .md-ios-link[data-v-a151410e] {
+    margin-right: 15px;
+}
+.md .md-ios-badge[data-v-a151410e] {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.ios .md-ios-badge[data-v-a151410e] {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+.row > [class*="col-"][data-v-a151410e], .row > .col[data-v-a151410e] {
     margin-bottom: 15px;
 }
 
