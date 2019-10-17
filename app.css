@@ -19336,6 +19336,9 @@ iframe#viAd {
 .fa-chevron-right:before {
   content: "\F054";
 }
+.fa-times-circle:before {
+  content: "\F057";
+}
 /* Your app styles here */
 /* Slider */
 .slick-slider
@@ -20302,13 +20305,18 @@ select[name=fontSize] option:first {
    .style-media-320{
        font-size: 17px !important;
    }
+  
+}
+@media (max-width: 364px){
+    .fs-7{
+        font-size: 8px;
+        line-height: 1.5 !important;
+        padding-top: 3px;
+    }
 }
 @media only screen and (max-width: 320px){
     .media-320{
         width: 35px !important;
-    }
-    .fs-7{
-        font-size: 8px;
     }
 }
 .slick-dots li button:before {
@@ -20367,6 +20375,30 @@ table, th, td {
     font-size: 20px;
     top: 0px;
     right: 30px;
+}
+.text-transform-uppercase{
+    text-transform: uppercase;
+}
+.style-demo-popup.modal-in{
+    display: block;
+    position: absolute;
+    z-index: 13500;
+    left: 50%;
+    margin-top: 0;
+    top: calc(25vh - 20px);
+    overflow: hidden;
+    transform: none;
+    margin-left: calc(-1 * calc(100vw - 30px)/ 2);
+    width: calc(100vw - 30px);
+    height: calc(100vh / 1.8);
+    background: transparent;
+}
+.style-demo-popup.modal-out {
+    transform: translate3d(0, 0%, 0) scale(0);
+    opacity: 0;
+}
+.style-check-box-xe-tai input[type="checkbox"]:checked ~ .icon-checkbox:after, label.item-checkbox input[type="checkbox"]:checked ~ * .icon-checkbox:after{
+    background: #fff !important;
 }
 
 .vue-map-container {
@@ -20676,29 +20708,170 @@ table, th, td {
 .row > [class*="col-"][data-v-0dfd95ee], .row > .col[data-v-0dfd95ee] {
     margin-bottom: 15px;
 }
+.pp-close[data-v-0dfd95ee]{
+    color: #222;
+    text-align: right;
+    right: 0;
+    display: block;
+    width: 100%;
+}
+/* .modal-dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.modal-dialog-centered::before {
+    display: block;
+    height: calc(100vh - 1rem);
+    content: "";
+}
+@media (min-width: 576px){
+    .modal-dialog-centered {
+        min-height: calc(100% - 3.5rem);
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+    .modal-dialog-centered::before {
+        height: calc(100vh - 3.5rem);
+    }
+} */
 
 
 
 .md .md-ios-link[data-v-737c1efa] {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 .ios .md-ios-link[data-v-737c1efa] {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 .md .md-ios-badge[data-v-737c1efa] {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+.ios .md-ios-badge[data-v-737c1efa] {
+  position: absolute;
+  top: 5px;
+  right: -15px;
+}
+.row > [class*="col-"][data-v-737c1efa],
+.row > .col[data-v-737c1efa] {
+  margin-bottom: 15px;
+}
+
+
+.md .md-ios-link[data-v-2b257410] {
+    margin-right: 10px;
+}
+.ios .md-ios-link[data-v-2b257410] {
+    margin-right: 15px;
+}
+.md .md-ios-badge[data-v-2b257410] {
     position: absolute;
     top: 10px;
     right: 0px;
 }
-.ios .md-ios-badge[data-v-737c1efa] {
+.ios .md-ios-badge[data-v-2b257410] {
     position: absolute;
     top: 5px;
     right: -15px;
 }
-.row > [class*="col-"][data-v-737c1efa], .row > .col[data-v-737c1efa] {
+.row > [class*="col-"][data-v-2b257410], .row > .col[data-v-2b257410] {
     margin-bottom: 15px;
 }
 
+
+
+.md .md-ios-link[data-v-9e874a8a] {
+    margin-right: 10px;
+}
+.ios .md-ios-link[data-v-9e874a8a] {
+    margin-right: 15px;
+}
+.md .md-ios-badge[data-v-9e874a8a] {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.ios .md-ios-badge[data-v-9e874a8a] {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+.row > [class*="col-"][data-v-9e874a8a], .row > .col[data-v-9e874a8a] {
+    margin-bottom: 15px;
+}
+
+
+
+.md .md-ios-link[data-v-6b79be37] {
+    margin-right: 10px;
+}
+.ios .md-ios-link[data-v-6b79be37] {
+    margin-right: 15px;
+}
+.md .md-ios-badge[data-v-6b79be37] {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.ios .md-ios-badge[data-v-6b79be37] {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+.row > [class*="col-"][data-v-6b79be37], .row > .col[data-v-6b79be37] {
+    margin-bottom: 15px;
+}
+
+
+
+.md .md-ios-link[data-v-6ef59bc0] {
+    margin-right: 10px;
+}
+.ios .md-ios-link[data-v-6ef59bc0] {
+    margin-right: 15px;
+}
+.md .md-ios-badge[data-v-6ef59bc0] {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.ios .md-ios-badge[data-v-6ef59bc0] {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+.row > [class*="col-"][data-v-6ef59bc0], .row > .col[data-v-6ef59bc0] {
+    margin-bottom: 15px;
+}
+.pp-close[data-v-6ef59bc0]{
+    color: #222;
+    text-align: right;
+    right: 0;
+    display: block;
+    width: 100%;
+}
+.triangle-topright[data-v-6ef59bc0] {
+    width: 0;
+    height: 0;
+    border-top: 110px solid #008ad5;
+    border-left: 110px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text-triangle-topright[data-v-6ef59bc0]{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    line-height: 1.2;
+}
 
 
 .md .md-ios-link[data-v-16c1c055] {
