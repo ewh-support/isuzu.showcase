@@ -20466,6 +20466,9 @@ table, th, td {
     margin: 0;
     line-height: 100%;
  }
+ .pd5{
+     padding: 0 5px;
+ }
 
 
 .vue-map-container {
