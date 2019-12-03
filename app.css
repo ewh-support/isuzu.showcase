@@ -20740,6 +20740,7 @@ table, th, td {
 .ios .style-bt-ios-dttp{
     top: 5px;
     position: relative;
+    line-height: 1.2 !important;
 }
 
 a.link.sheet-close.popover-close {
