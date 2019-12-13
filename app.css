@@ -20673,10 +20673,10 @@ table, th, td {
     font-size: 15px;
     padding: 5px;
 }
-.style-data-table table tr td:first-child{
+.style-data-table table tr td:nth-child(1){
     font-family: 'Montserrat-SemiBold';
     font-size: 15px;
-    min-width: 160px;
+    max-width: 160px;
     padding: 5px;
 }
 .style-data-table table tr th:first-child{
@@ -20747,13 +20747,22 @@ a.link.sheet-close.popover-close {
   color: #000 !important
  }
 .boxtabbar {
-  transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: 0.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 .style-data-table-width table tr td:nth-child(1){
     width: 100px !important;
     min-width: 100px !important;
 }
-
+.style-td-data-table table tr td:nth-child(2){
+    word-break: break-word;
+    width: 101px !important;
+    max-width: 101px !important;
+    min-width: 101px !important;
+}
+.style-img .block img{
+    height: 185px;
+    object-fit: cover;
+}
 
 .vue-map-container {
   position: relative;
@@ -21229,6 +21238,10 @@ img {
     top: 4px;
     width: 15px;
 }
+.marginTop[data-v-6b79be37]{
+    margin-top: 85px;
+    z-index: 9999;
+}
 
 
 .md .md-ios-link[data-v-36119a70] {
@@ -21313,6 +21326,9 @@ img {
     right: 0;
     display: block;
     width: 100%;
+}
+.marginTop[data-v-6ef59bc0]{
+    margin-top: 85px !important;
 }
 
 
