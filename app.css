@@ -20637,6 +20637,22 @@ table, th, td {
 .style-radio-ban-tai .item-radio input[type="radio"]:checked ~ .icon-radio {
     border-color: #df3603 !important;
 }
+.style-radio-xe-tai .icon-radio {
+  border-color: #d4d4d4;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;;
+}
+.style-radio-xe-tai ul{
+    background: transparent;
+}
+.style-radio-xe-tai .item-radio input[type="radio"]:checked ~ .icon-radio:after {
+    background-color:#2196f3 !important;
+
+}
+.style-radio-xe-tai .item-radio input[type="radio"]:checked ~ .icon-radio {
+    border-color: #2196f3 !important;
+}
 .style-range-ban-tai .range-bar-active, .style-range-ban-tai .range-knob{
     background-color:#df3603 !important;
 }
@@ -20664,6 +20680,26 @@ table, th, td {
     top: auto;
     margin-top: 0;
     right: 0;
+}
+.style-radio-xe-tai .icon-radio:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  top: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 50%;
+  transform: scale(1);
+  transition-duration: 200ms;
+  display: block;
+}
+.style-radio-xe-tai label.item-radio input[type="radio"] ~ .icon-radio {
+  position: relative;
+  top: auto;
+  margin-top: 0;
+  right: 0;
 }
 .style-data-table table{
     width: 100%;
@@ -20763,6 +20799,7 @@ a.link.sheet-close.popover-close {
     height: 185px;
     object-fit: cover;
 }
+
 
 .vue-map-container {
   position: relative;
@@ -21244,6 +21281,7 @@ img {
 }
 
 
+
 .md .md-ios-link[data-v-36119a70] {
     margin-right: 10px;
 }
@@ -21298,6 +21336,11 @@ img {
     top: 4px;
     width: 15px;
 }
+.marginTop[data-v-36119a70]{
+    margin-top: 85px;
+    z-index: 9999;
+}
+
 
 
 .md .md-ios-link[data-v-6ef59bc0] {
