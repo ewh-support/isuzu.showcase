@@ -21051,10 +21051,10 @@ img {
     top: 5px;
     right: -15px;
 }
-.row > [class*="col-"][data-v-60e8e647], .row > .col[data-v-60e8e647] {
+.row>[class*="col-"][data-v-60e8e647],
+.row>.col[data-v-60e8e647] {
     margin-bottom: 15px;
 }
-
 
 
 .md .md-ios-link[data-v-283f9363] {
