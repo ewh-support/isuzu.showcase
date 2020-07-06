@@ -19354,6 +19354,24 @@ iframe#viAd {
 .fa-check-circle:before {
   content: "\F058";
 }
+.fa-angle-double-right:before {
+  content: "\F101";
+}
+.fa-angle-double-left:before {
+  content: "\F100";
+}
+.fa-wrench:before {
+  content: "\F0AD";
+}
+.fa-calendar:before {
+  content: "\F073";
+}
+.fa-map-marker:before {
+  content: "\F041";
+}
+.fa-eye:before {
+  content: "\F06E";
+}
 /* Your app styles here */
 /* Slider */
 .slick-slider
@@ -20799,7 +20817,57 @@ a.link.sheet-close.popover-close {
     height: 185px;
     object-fit: cover;
 }
+.style-block-row .tag-hr:last-child{
+    display: none;
+}
+.style-block-row-display .li:last-child
+{
+    border-bottom: 0px;
+}
 
+/* .bordered {
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 1px #CCCCCC;
+}
+table {
+    border-spacing: 0;
+    width: 600px;
+    margin: 30px;
+}        
+.bordered th:first-child {
+    border-radius: 6px 0 0 0;
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+    border-radius: 0 6px 0 0;
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+}
+
+.bordered td:first-child, .bordered th:first-child {
+    border-left: medium none;
+}
+
+.bordered th {
+    background-color: #DCE9F9;
+    background-image: -moz-linear-gradient(center top , #F8F8F8, #ECECEC);
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#F8F8F8), to(#ECECEC), color-stop(.4, #F8F8F8));
+    border-top: medium none;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.bordered td, .bordered th {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    padding: 10px;
+    text-align: left;
+} */
 
 .vue-map-container {
   position: relative;
@@ -21728,28 +21796,28 @@ ul[data-v-58d854bf],
 .item-content[data-v-58d854bf],
 .item-inner[data-v-58d854bf],
 .item-title[data-v-58d854bf] {
-  background-color: #fff;
-  color: #000;
-  /* margin: 0px; */
-  /* padding: 0px; */
+    background-color: #fff;
+    color: #000;
+    /* margin: 0px; */
+    /* padding: 0px; */
 }
 .logo-isuzu[data-v-58d854bf] {
-  margin-top: 10px;
-  text-align: center;
+    margin-top: 10px;
+    text-align: center;
 }
 .close-icon[data-v-58d854bf] {
-  position: absolute !important;
-  right: 10px !important;
+    position: absolute !important;
+    right: 10px !important;
 }
 .close-icon2[data-v-58d854bf] {
-  position: absolute !important;
-  right: -58px !important;
-  top: -30px;
-  font-size: 30px;
-  opacity: 0;
+    position: absolute !important;
+    right: -58px !important;
+    top: -30px;
+    font-size: 30px;
+    opacity: 0;
 }
 .text-color-black[data-v-58d854bf] {
-  color: #000;
+    color: #000;
 }
 
 
@@ -22408,5 +22476,18 @@ position: relative;
 }
 .input.input-with-error-message.input-invalid[data-v-0124ee86]{
     padding-bottom: 0px;
+}
+
+
+ul[data-v-d78d740e] {
+    list-style: none;
+}
+
+
+ul[data-v-5ac640f5]::after {
+    height: 0px;
+}
+.item-inner[data-v-5ac640f5]:after {
+    height: 0px;
 }
 
