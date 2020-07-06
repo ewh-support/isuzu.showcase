@@ -19092,6 +19092,17 @@ iframe#viAd {
        url(fonts/MaterialIcons-Regular.012cf6a.woff) format('woff'),
        url(fonts/MaterialIcons-Regular.a37b0c0.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Fester-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Fester-Bold.923ff38.woff); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+      
+       url(fonts/Fester-Bold.923ff38.woff) format('woff'),
+       
+}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -19374,6 +19385,8 @@ iframe#viAd {
 }
 /* Your app styles here */
 /* Slider */
+
+
 .slick-slider
 {
     position: relative;
@@ -20825,49 +20838,74 @@ a.link.sheet-close.popover-close {
     border-bottom: 0px;
 }
 
-/* .bordered {
-    border: 1px solid #CCCCCC;
-    border-radius: 6px 6px 6px 6px;
-    -moz-border-radius: 6px 6px 6px 6px;
-    -webkit-border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 1px 1px #CCCCCC;
+.bordered {
+  border: 1px solid #CCCCCC !important;
+  border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  border-collapse: inherit !important;
+  overflow: hidden;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+  border-spacing: 0 !important;
+  border-top: 0;
 }
-table {
-    border-spacing: 0;
-    width: 600px;
-    margin: 30px;
-}        
+
 .bordered th:first-child {
-    border-radius: 6px 0 0 0;
-    -moz-border-radius: 6px 0 0 0;
-    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 0px 0 0 0 !important;
+    -moz-border-radius: 6px 0 0 0 !important;
+    -webkit-border-radius: 6px 0 0 0 !important;
+    -ms-border-radius: 6px 0 0 0 !important;
+    -o-border-radius: 6px 0 0 0 !important;
+    border-left: 0px;
 }
 
 .bordered th:last-child {
     border-radius: 0 6px 0 0;
     -moz-border-radius: 0 6px 0 0;
     -webkit-border-radius: 0 6px 0 0;
+    border-right: 0px;
 }
 
-.bordered td:first-child, .bordered th:first-child {
+/* .bordered td:first-child, .bordered th:first-child {
     border-left: medium none;
-}
+} */
 
 .bordered th {
-    background-color: #DCE9F9;
-    background-image: -moz-linear-gradient(center top , #F8F8F8, #ECECEC);
-    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#F8F8F8), to(#ECECEC), color-stop(.4, #F8F8F8));
+    /* background-color: #DCE9F9; */
+    /* background-image: -moz-linear-gradient(center top , #F8F8F8, #ECECEC);
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#F8F8F8), to(#ECECEC), color-stop(.4, #F8F8F8)); */
     border-top: medium none;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border-bottom: 0;
 }
 
-.bordered td, .bordered th {
-    border-left: 1px solid #CCCCCC;
-    border-top: 1px solid #CCCCCC;
+.bordered td {
+    border: 0px solid #CCCCCC;
+    border-bottom: 0px solid #CCCCCC; 
     padding: 10px;
     text-align: left;
-} */
+    border-right: 1px solid #ccc;
+}
+.bordered td {
+    border-top: 0px; 
+}
+.bordered td:last-child {
+    border-right: 0px;
+
+}
+.bordered th {
+    /* border: 1px solid #CCCCCC; */
+      /* border-top: 1px solid #CCCCCC; */
+      padding: 10px;
+      text-align: left;
+      border-left: 0;
+  }
+  .data-table .bordered tbody td:before, .data-table tbody th:before{
+    height: 0 !important;
+    border-bottom: 1px solid #ccc;
+  }
 
 .vue-map-container {
   position: relative;
