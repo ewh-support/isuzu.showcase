@@ -22528,6 +22528,11 @@ position: relative;
 ul[data-v-d78d740e] {
     list-style: none;
 }
+.display-set[data-v-d78d740e] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 ul[data-v-5ac640f5]::after {
