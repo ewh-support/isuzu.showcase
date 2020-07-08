@@ -22533,6 +22533,9 @@ ul[data-v-d78d740e] {
     justify-content: center;
     align-items: center;
 }
+.ios .set-icon[data-v-d78d740e] {
+    margin-top: 5px !important;
+}
 
 
 ul[data-v-5ac640f5]::after {
@@ -22546,6 +22549,7 @@ ul[data-v-5ac640f5]::after {
     line-height: 50px !important;
     display: block !important;
 }
+
 
 
 ul[data-v-17256d63]::after {
