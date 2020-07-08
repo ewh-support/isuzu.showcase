@@ -22534,7 +22534,8 @@ ul[data-v-d78d740e] {
     align-items: center;
 }
 .ios .set-icon[data-v-d78d740e] {
-    margin-top: 5px !important;
+    /* margin-top: 3px !important; */
+    margin-bottom: 1px !important;
 }
 
 
