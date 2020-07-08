@@ -22537,6 +22537,9 @@ ul[data-v-d78d740e] {
     /* margin-top: 3px !important; */
     margin-bottom: 1px !important;
 }
+.st[data-v-d78d740e] {
+    padding-top: 5px;
+}
 
 
 ul[data-v-5ac640f5]::after {
