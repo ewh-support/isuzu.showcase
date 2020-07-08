@@ -19762,6 +19762,9 @@ img{
 .fs-20{
     font-size: 20px;
 }
+.fs-18{
+    font-size: 18px;
+}
 .fs-16{
     font-size: 16px;
 }
@@ -19771,6 +19774,7 @@ img{
 .fs-12{
     font-size: 12px !important;
 }
+
 .tab-link:not(.tab-link-active){
     color: #fff;
 }
@@ -20271,7 +20275,9 @@ select[name=fontSize] option:first {
 .fs-15{
     font-size: 15px !important;
 }
-
+.fs-12{
+    font-size: 12px;
+}
 .bg-fb{
     background-color: #4267b2;
 }
@@ -20593,6 +20599,9 @@ table, th, td {
  }
  .pd5{
      padding: 0 5px;
+ }
+ .pd15{
+     padding-left: 15px;
  }
 .fs-13{
     font-size: 13px;
@@ -21381,11 +21390,10 @@ img {
     top: 4px;
     width: 15px;
 }
-.marginTop[data-v-6b79be37]{
+.marginTop[data-v-6b79be37] {
     margin-top: 85px;
     z-index: 9999;
 }
-
 
 
 .md .md-ios-link[data-v-36119a70] {
@@ -22527,5 +22535,25 @@ ul[data-v-5ac640f5]::after {
 }
 .item-inner[data-v-5ac640f5]:after {
     height: 0px;
+}
+.webkit[data-v-5ac640f5] {
+    height: 50px !important;
+    line-height: 50px !important;
+    display: block !important;
+}
+
+
+ul[data-v-17256d63]::after {
+    height: 0px;
+}
+.item-inner[data-v-17256d63]:after {
+    height: 0px;
+}
+
+
+.setting ul li a[data-v-47352498] {
+    font-family: 'Montserrat-Medium' !important;
+    font-size: 15px !important;
+    padding: 0px;
 }
 
