@@ -22582,6 +22582,14 @@ ul[data-v-5ac640f5]::after {
     line-height: 50px !important;
     display: block !important;
 }
+.ios .ios-setting[data-v-5ac640f5] {
+    display: block;
+    margin-top: 1px !important;
+}
+.md .md-setting[data-v-5ac640f5] {
+    display: block;
+    margin-top: 4px !important;
+}
 
 
 ul[data-v-17256d63]::after {
@@ -22623,10 +22631,25 @@ ul[data-v-17256d63]::after {
     padding: 10px;
     margin-left: 15px !important;
 }
+.block-strong[data-v-7f29c7de]:after{
+    height: 0px !important;
+}
+.block-strong[data-v-7f29c7de]:before
+{
+    height: 0px !important;
+}
 .webkit[data-v-7f29c7de] {
-    height: 37px !important;
-    line-height: 37px !important;
+    height: 50px !important;
+    line-height: 50px !important;
     display: block !important;
+}
+.ios .ios-setting[data-v-7f29c7de] {
+    display: block;
+    margin-top: 1px !important;
+}
+.md .md-setting[data-v-7f29c7de] {
+    display: block;
+    margin-top: 4px !important;
 }
 .color-page-1[data-v-7f29c7de] {
     background-color: #bdbcbc;
