@@ -22631,11 +22631,10 @@ ul[data-v-17256d63]::after {
     padding: 10px;
     margin-left: 15px !important;
 }
-.block-strong[data-v-7f29c7de]:after{
+.block-strong[data-v-7f29c7de]:after {
     height: 0px !important;
 }
-.block-strong[data-v-7f29c7de]:before
-{
+.block-strong[data-v-7f29c7de]:before {
     height: 0px !important;
 }
 .webkit[data-v-7f29c7de] {
@@ -22704,5 +22703,8 @@ ul[data-v-17256d63]::after {
     font-family: 'Montserrat-Italic';
     font-size: 12px;
     margin-top: 5px;
+}
+.test-noti[data-v-7f29c7de] {
+    padding-bottom: 5px;
 }
 
