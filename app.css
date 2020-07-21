@@ -22640,10 +22640,17 @@ ul[data-v-17256d63]::after {
     display: block;
     margin-top: 4px !important;
 }
+.setting input[data-v-17256d63] {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 90%;
+    /* padding: 10px;
+    margin-left: 15px !important; */
+}
 
 
 .setTitle[data-v-6fdc255f] {
-    color: #c80200 !important;
+     color: #c80200 !important;
 }
 .setBg[data-v-6fdc255f] {
     background-color: #f6f6f6;
@@ -22665,8 +22672,8 @@ ul[data-v-17256d63]::after {
     border: 1px solid gray;
     border-radius: 5px;
     width: 90%;
-    padding: 10px;
-    margin-left: 15px !important;
+    /* padding: 10px;
+    margin-left: 15px !important; */
 }
 .block-strong[data-v-7f29c7de]:after {
     height: 0px !important;
@@ -22741,6 +22748,11 @@ ul[data-v-17256d63]::after {
     font-size: 12px;
     margin-top: 5px;
 }
-
-
+.style-div[data-v-7f29c7de] {
+    width: 90% !important;
+    margin: auto !important;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 4px !important;
+}
 
