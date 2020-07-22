@@ -22581,10 +22581,15 @@ ul[data-v-d78d740e] {
     margin-bottom: 1px !important;
 }
 .md .set-icon[data-v-d78d740e] {
-    margin-top: -10px;
+    position: relative;
+    top: 0px;
 }
 .st[data-v-d78d740e] {
     padding-top: 5px;
+}
+.md .set-icon-andr[data-v-d78d740e] {
+    position: relative;
+    top: 5px;
 }
 
 
@@ -22625,7 +22630,8 @@ ul[data-v-17256d63]::after {
     margin-bottom: 1px !important;
 }
 .md .set-icon[data-v-17256d63] {
-    margin-top: -10px;
+    position: relative;
+    top: 0px;
 }
 .webkit[data-v-17256d63] {
     height: 50px !important;
@@ -22646,6 +22652,10 @@ ul[data-v-17256d63]::after {
     width: 90%;
     /* padding: 10px;
     margin-left: 15px !important; */
+}
+.md .set-icon-andr[data-v-17256d63] {
+    position: relative;
+    top:5px;
 }
 
 
