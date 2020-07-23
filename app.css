@@ -22620,6 +22620,9 @@ ul[data-v-5ac640f5]::after {
     display: block;
     margin-top: 4px !important;
 }
+.ios .style-ios[data-v-5ac640f5] {
+    padding-top: 5px;
+}
 
 
 ul[data-v-17256d63]::after {
