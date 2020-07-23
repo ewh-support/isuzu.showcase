@@ -22591,6 +22591,14 @@ ul[data-v-d78d740e] {
     position: relative;
     top: 5px;
 }
+.set-item[data-v-d78d740e] {
+    position: relative;
+    right: 20px;
+}
+.sets-item[data-v-d78d740e] {
+    position: relative;
+    right: 10px;
+}
 
 
 ul[data-v-5ac640f5]::after {
@@ -22660,7 +22668,7 @@ ul[data-v-17256d63]::after {
 
 
 .setTitle[data-v-6fdc255f] {
-     color: #c80200 !important;
+    color: #c80200 !important;
 }
 .setBg[data-v-6fdc255f] {
     background-color: #f6f6f6;
