@@ -22666,7 +22666,20 @@ ul[data-v-17256d63]::after {
 }
 .md .set-icon-andr[data-v-17256d63] {
     position: relative;
-    top:5px;
+    top: 5px;
+}
+.overplay[data-v-17256d63] {
+    width: 18%;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+    background: white;
+    left: 81%;
+    top: 48%;
+}
+.change[data-v-17256d63] {
+    position: relative;
+    z-index: 1;
 }
 
 
