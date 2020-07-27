@@ -21124,26 +21124,27 @@ img {
 
 
 .md .md-ios-link[data-v-20c51e0c] {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 .ios .md-ios-link[data-v-20c51e0c] {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 .md .md-ios-badge[data-v-20c51e0c] {
-    position: absolute;
-    top: 10px;
-    right: 0px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
 }
 .ios .md-ios-badge[data-v-20c51e0c] {
-    position: absolute;
-    top: 5px;
-    right: -15px;
+  position: absolute;
+  top: 5px;
+  right: -15px;
 }
-.row > [class*="col-"][data-v-20c51e0c], .row > .col[data-v-20c51e0c] {
-    margin-bottom: 15px;
+.row > [class*="col-"][data-v-20c51e0c],
+.row > .col[data-v-20c51e0c] {
+  margin-bottom: 15px;
 }
-.input.input-with-error-message.input-invalid[data-v-20c51e0c]{
-    padding-bottom: 0px;
+.input.input-with-error-message.input-invalid[data-v-20c51e0c] {
+  padding-bottom: 0px;
 }
 
 
@@ -22622,6 +22623,15 @@ ul[data-v-5ac640f5]::after {
 }
 .ios .style-ios[data-v-5ac640f5] {
     padding-top: 5px;
+}
+.overplay[data-v-5ac640f5] {
+    width: 18%;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+    background: white;
+    left: 81%;
+    top: 34%;
 }
 
 
